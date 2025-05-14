@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "codeac-runtime"
+version = "0.1.0"
+description = ""
+authors = ["markshao <shaoyuliang@qq.com>"]
+readme = "README.md"
+packages = [{include = "codeac_runtime"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^4.4.2"
+papermill = "^2.6.0"
+pydantic-ai = "^0.2.3"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
