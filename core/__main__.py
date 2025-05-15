@@ -10,7 +10,7 @@ from core.utils import extract_code_from_markdown
 
 model = OpenAIModel(
     'deepseek-chat',
-    provider=DeepSeekProvider(api_key='sk-91d44bb2cb0b41dc9a03ebf35e60b598'),
+    provider=DeepSeekProvider(api_key=''),
 )
 agent = Agent(model)
 
